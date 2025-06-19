@@ -1,7 +1,9 @@
 import 'package:flutter_bloc_clean_architecture/src/comman/constant.dart';
 import 'package:flutter_bloc_clean_architecture/src/comman/enum.dart';
+import 'package:flutter_bloc_clean_architecture/src/comman/routes.dart';
 import 'package:flutter_bloc_clean_architecture/src/comman/toast.dart';
 import 'package:flutter_bloc_clean_architecture/src/presentation/bloc/sign_in_form/sign_in_form_bloc.dart';
+import 'package:flutter_bloc_clean_architecture/src/presentation/page/auth/sign_up_screen.dart';
 import 'package:flutter_bloc_clean_architecture/src/presentation/widget/custom_elevated_button.dart';
 import 'package:flutter_bloc_clean_architecture/src/presentation/widget/custom_text_form_field.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -231,7 +233,10 @@ class _SignInPageState extends State<SignInPage> {
         const SizedBox(width: SPACE8),
         GestureDetector(
           onTap: () {
-            // Navigator.pushNamed(context, SIGN_UP);
+             Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => SignUnPage(),
+              ));
           },
           child: Text(
             'Register',
