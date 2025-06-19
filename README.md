@@ -47,13 +47,13 @@ The project is organized into a modular and layered architecture to promote sepa
 1. Clone this repository to your local environment:
 
    ```bash
-   git clone https://github.com/FarhanRiaaz/flutter_bloc_clean_architecture
+   git clone https://github.com/FarhanRiaaz/flutter-bloc-clean-architecture
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd flutter_bloc_clean_architecture
+   cd flutter-bloc-clean-architecture
    ```
 
 3. Install all the dependencies:
