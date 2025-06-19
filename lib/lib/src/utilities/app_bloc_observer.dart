@@ -1,6 +1,7 @@
-import 'package:bloc_clean_architecture/src/utilities/extensions/string_extension.dart';
-import 'package:bloc_clean_architecture/src/utilities/logger.dart';
+
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/utilities/extensions/string_extension.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/utilities/logger.dart';
 
 /// [BlocObserver] which logs all bloc state changes, errors and events.
 class AppBlocObserver extends BlocObserver {

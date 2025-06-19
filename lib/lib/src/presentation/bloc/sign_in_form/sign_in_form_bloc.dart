@@ -1,5 +1,5 @@
-import 'package:bloc_clean_architecture/src/comman/enum.dart';
-import 'package:bloc_clean_architecture/src/domain/usecase/login.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/comman/enum.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/domain/usecase/login.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
@@ -26,7 +26,7 @@ class SignInFormBloc extends Bloc<SignInFormEvent, SignInFormState> {
                 (f) => emit(
                       state.copyWith(
                         state: RequestState.error,
-                        message: f.message,
+                        message:'An error occurred while signing in.',
                       ),
                     ),
                 (_) => emit(state.copyWith(state: RequestState.loaded)));

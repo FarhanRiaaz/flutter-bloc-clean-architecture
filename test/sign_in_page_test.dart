@@ -1,12 +1,12 @@
-import 'package:bloc_clean_architecture/src/presentation/page/auth/sign_in_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/widget/custom_text_form_field.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/presentation/page/auth/sign_in_screen.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/presentation/widget/custom_text_form_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:bloc_test/bloc_test.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bloc_clean_architecture/src/presentation/bloc/sign_in_form/sign_in_form_bloc.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/presentation/bloc/sign_in_form/sign_in_form_bloc.dart';
 
 // Mocking the SignInFormBloc
 class MockSignInFormBloc extends MockBloc<SignInFormEvent, SignInFormState> implements SignInFormBloc {}

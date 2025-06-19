@@ -1,10 +1,9 @@
-import 'package:bloc_clean_architecture/src/comman/constant.dart';
-import 'package:bloc_clean_architecture/src/comman/enum.dart';
-import 'package:bloc_clean_architecture/src/comman/toast.dart';
-import 'package:bloc_clean_architecture/src/presentation/bloc/sign_in_form/sign_in_form_bloc.dart';
-import 'package:bloc_clean_architecture/src/presentation/widget/custom_elevated_button.dart';
-import 'package:bloc_clean_architecture/src/presentation/widget/custom_text_form_field.dart';
-import 'package:bloc_clean_architecture/src/utilities/debouncer.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/comman/constant.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/comman/enum.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/comman/toast.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/presentation/bloc/sign_in_form/sign_in_form_bloc.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/presentation/widget/custom_elevated_button.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/presentation/widget/custom_text_form_field.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 

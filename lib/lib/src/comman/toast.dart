@@ -1,4 +1,4 @@
-import 'package:bloc_clean_architecture/src/comman/colors.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/comman/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 

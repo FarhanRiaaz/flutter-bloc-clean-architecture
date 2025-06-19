@@ -1,5 +1,5 @@
-import 'package:bloc_clean_architecture/src/comman/colors.dart';
-import 'package:bloc_clean_architecture/src/comman/constant.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/comman/colors.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/comman/constant.dart';
 import 'package:flutter/material.dart';
 
 class CustomOutlinedButton extends StatelessWidget {

@@ -1,5 +1,5 @@
-import 'package:bloc_clean_architecture/src/comman/api.dart';
-import 'package:bloc_clean_architecture/src/comman/constant.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/comman/api.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/comman/constant.dart';
 import 'package:dio/dio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

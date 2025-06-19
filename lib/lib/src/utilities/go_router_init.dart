@@ -1,10 +1,10 @@
-import 'package:bloc_clean_architecture/src/comman/routes.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/auth/sign_in_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/auth/sign_up_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/dashboard/dashboard_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/error/error_screen.dart';
-import 'package:bloc_clean_architecture/src/presentation/page/splash/splash_screen.dart';
-import 'package:bloc_clean_architecture/src/utilities/logger.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/comman/routes.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/presentation/page/auth/sign_in_screen.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/presentation/page/auth/sign_up_screen.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/presentation/page/dashboard/dashboard_screen.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/presentation/page/error/error_screen.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/presentation/page/splash/splash_screen.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/utilities/logger.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

@@ -1,5 +1,5 @@
-import 'package:bloc_clean_architecture/src/comman/failure.dart';
-import 'package:bloc_clean_architecture/src/domain/repositories/autentication_repository.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/comman/failure.dart';
+import 'package:flutter_bloc_clean_architecture/lib/src/domain/repositories/autentication_repository.dart';
 import 'package:dartz/dartz.dart';
 
 class SignIn {
